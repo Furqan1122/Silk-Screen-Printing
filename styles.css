@@ -1,0 +1,57 @@
+h3{
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: silver;
+    border-radius: 75%;
+    border: solid black 3px;
+    animation: anime 1s  infinite alternate ;
+}
+@keyframes anime{
+    0%{border-radius: 0%;}
+    100%{border-radius: 75% ;background-color:rgb(94, 182, 77);color: white;}
+}
+
+img{
+    max-width: 100%;
+}
+.img-work{
+    border:  solid black 3px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+table.heading{
+    text-align: center;
+    text-shadow: 0 0 3px #FF0000, 0 0 2px #0000FF;
+    padding-left: 50px;
+    padding-right: 50px;
+    color:darkmagenta;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 1px;
+    
+}
+hr{
+    border: dotted 2px;
+    border-radius: 100%;
+}
+.bar{
+    background-color: rgb(135, 219, 118);
+    border: solid black 1px;
+}
+.home-bar {
+ margin-right: 70px;
+}
+.contect {
+    margin-right: 60px;
+   }
+   .work {
+    margin-right: 60px;
+   }
+
+.me{
+    text-align: center;
+    background-color: rgb(73, 58, 58);
+    color: whitesmoke;
+}
